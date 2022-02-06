@@ -13,12 +13,4 @@ WORKDIR /home/app
 # will execute npm install in /home/app because of WORKDIR
 RUN npm install
 
-<<<<<<< HEAD
-# no need for /home/app/server.js because of WORKDIR
-CMD ["node", "server.js"]
-=======
-#Some Change no need for /home/app/server.js because of WORKDIR
-CMD ["node", "server.js"]
-
-#This will build custom image..
->>>>>>> parent of 15bf428 (Revert "third commit")
+#build custom image 1
